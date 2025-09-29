@@ -30,26 +30,7 @@ const config = {
             },
           ],
         },
-        {
-          type: "category",
-          label: "Useful Links",
-          collapsible: false,
-          icon: "link",
-          items: [
-            {
-              type: "link",
-              icon: "book",
-              label: "Zudoku Docs",
-              to: "https://zudoku.dev/docs/",
-            },
-          ],
-        },
       ],
-    },
-    {
-      type: "link",
-      to: "/api",
-      label: "API Reference",
     },
   ],
   redirects: [{ from: "/", to: "/introduction" }],
