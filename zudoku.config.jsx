@@ -1,6 +1,6 @@
 /** @type {import('zudoku').ZudokuConfig} */
 const config = {
-  basePath: "/api-documentation"
+  basePath: "/api-documentation",
   site: {
     logo: {
       src: { light: "/logo-light.svg", dark: "/logo-dark.svg" },
