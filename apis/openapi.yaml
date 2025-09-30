@@ -37,6 +37,25 @@ paths:
         - `x-n0nce` (random nonce)
       security:
         - hmacAuth: []
+      parameters:
+        - in: header
+          name: x-timestamp
+          required: true
+          schema:
+            type: string
+          example: "1759114544"
+        - in: header
+          name: x-s1gnature
+          required: true
+          schema:
+            type: string
+          example: "b32fbbb693ecc87c21eba63d75eb830bdbdd5950c1023ed7bf82986023ad53ca"
+        - in: header
+          name: x-n0nce
+          required: true
+          schema:
+            type: string
+          example: "aa762e8519d44dac129c78b6c87d5ab4"
       requestBody:
         required: true
         content:
